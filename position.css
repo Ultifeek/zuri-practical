@@ -1,0 +1,33 @@
+.box1, .box2, .box3, .another-box{
+    height: 200px;
+    width: 200px;
+    color: white;
+    text-align: center;
+}
+.box1{
+    background-color: red;
+    position: absolute;
+    left: 250px;
+    z-index: 1;
+}
+.box2{
+    background-color: blue;
+    position: absolute;
+    left: 100px;
+    /* z-index: 1; */
+}
+.box3{
+    background-color:  blueviolet;
+}
+.inner-box{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    /* bottom: 0px;
+    left: 0px; */
+}
+.another-box{
+    background-color: rgb(51, 96, 81);
+    
+}
